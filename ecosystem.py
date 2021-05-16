@@ -32,7 +32,7 @@ class Ecosystem:
                     break
             chromosome = Chromosome()
             for geneName in genList:
-                stat = random.randrange(0, 10)
+                stat = random.randrange(0, 2)
                 gene1 = Gene(geneName=geneName, stat=stat, isSuperior=True)
                 gene2 = Gene(geneName=geneName, stat=stat, isSuperior=True)
                 chromosome.appendGene(gene1, gene2)

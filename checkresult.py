@@ -5,8 +5,8 @@ import numpy as np
 
 # epoch = 5
 
-f, axes = plt.subplots(2, 3)
 def main(epoch):
+    f, axes = plt.subplots(2, 3)
     data = list()
     powerData = list()
     veloData = list()
